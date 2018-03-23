@@ -5,7 +5,7 @@ from datetime import date
 import os
 
 bing_path = 'http://www.bing.com'
-bing_url = 'https://www.bing.com/HPImageArchive.aspx?format=xml&idx=1&n=1&mkt=en-US'
+bing_url = 'https://www.bing.com/HPImageArchive.aspx?format=xml&idx=0&n=1&mkt=en-US'
 
 def date_generator():
     today = str(date.today())
